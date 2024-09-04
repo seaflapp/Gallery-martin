@@ -3,9 +3,9 @@
     // export let images = [];
   
     const images = [
-      { src: "/public/img/nordlys6.jpg", alt: "bilde av Nordlys" },
+      { src: "/public/img/nordlys6.jpg",  alt: "bilde av Nordlys" },
       { src: "/public/img/nordlys10.jpg", alt: "bilde av Nordlys" },
-      { src: "/public/img/nordlys7.jpg", alt: "bilde av Nordlys" },
+      { src: "/public/img/nordlys7.jpg",  alt: "bilde av Nordlys" },
     ];
   </script>
   
@@ -37,5 +37,9 @@
       max-width: 300px;
       height: auto;
       border-radius: 4px;
+    }
+
+    h2 {
+      color: #242424;
     }
   </style>

@@ -1,5 +1,5 @@
 <header>
-    <nav>
+    <nav id="Top-of-page">
         <figure>
             <!-- <img src="./" alt="logo" /> trenger å finne bilde  -->
           </figure>
@@ -11,7 +11,7 @@
 <style>
 
 Header {
-    background: rgb(123, 158, 253);
+    background-color: var(--tertiery);
     padding: 32px;
 }
 
@@ -21,13 +21,13 @@ gap: 16px;
 }
 
 header nav a {
-background-color: #3a2e2e;
+    background-color: var(--tertiery);
 color: var(--white);
 text-decoration: none;
-border: 2px solid #3a2e2e;
+border: 2px solid var(--secandary);
 border-radius: 12px;
 padding: 6px;
-box-shadow: 2px 2px 3px #3a2e2e;
+box-shadow: 2px 2px 3px var(--white);
 transition: 0, 3s ease;
 }
 

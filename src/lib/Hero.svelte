@@ -42,10 +42,10 @@ section.hero h1 {
 }
 
 section.hero button {
-    background-color: rgba(143, 143, 143, 0.123);
-    border: 2px solid rgba(59, 58, 58, 0.281);
+    background-color: var(--primary);
+    border: 2px solid var(--secandary);
     border-radius: 8px;
     padding: 4px;
-    box-shadow: 2px 2px 3px #252525;
+    box-shadow: 2px 2px 3px var(--black);
 }
 </style>

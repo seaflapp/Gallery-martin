@@ -3,23 +3,24 @@
     // export let images = [];
   
     const images = [
-      { src: "/public/img/nordlys14.jpg", alt: "bilde av Nordlys" },
-      { src: "/public/img/nordlys12.jpg", alt: "bilde av Nordlys" },
-      { src: "/public/img/nordlys11.jpg", alt: "bilde av Nordlys" },
+      { src: "/public/img/true.jpeg",  alt: "java isn't stressful at all" },
+      { src: "/public/img/not-my-code.jpg", alt: "bilde av Nordlys" },
+      { src: "/public/img/iwanttostopcrying-v0-jqbyt6kneu9d1.webp",  alt: "bilde av Nordlys" },
     ];
   </script>
   
-  <div class="gallery" id="Gallery">
-    <h2>Image Gallery2</h2>
+  <div class="Meme" id="Meme">
+    <h2>Memes</h2>
     <div class="image-container">
       {#each images as image}
         <img src={image.src} alt={image.alt} />
       {/each}
     </div>
   </div>
-  
+
+
   <style>
-    .gallery {
+    .Meme {
       margin: 20px;
       padding: 20px;
       border: 1px solid #ddd;

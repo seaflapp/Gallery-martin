@@ -12,8 +12,8 @@
 
     <nav>
       <a href="#intro">intro</a>
-      <a href="#galleri-en">bilder1</a>
-      <a href="#galleri-to">bilder2</a>
+      <a href="#Gallery">Gallery</a>
+      <a href="#Top-of-page">Top of page </a>
     </nav>
   </footer>
 
